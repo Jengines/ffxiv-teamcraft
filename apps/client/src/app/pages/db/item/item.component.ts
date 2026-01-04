@@ -557,29 +557,6 @@ export class ItemComponent extends TeamcraftPageComponent implements OnInit, OnD
     };
   }
 
-  // public openModelViewer(xivapiItem: any, gtData: ItemData): void {
-  //   let slot: number | string;
-  //   if (gtData.item.mount) {
-  //     slot = 'mount';
-  //   } else if (gtData.item.minionrace) {
-  //     slot = 'minion';
-  //   } else if (gtData.item.furniture) {
-  //     slot = 'furniture';
-  //   } else {
-  //     slot = gtData.item.slot;
-  //   }
-  //   this.dialog.create({
-  //     nzTitle: this.translate.instant('DB.3d_model_viewer'),
-  //     nzContent: ModelViewerComponent,
-  //     nzData: {
-  //       slot: slot,
-  //       models: gtData.item.models
-  //     },
-  //     nzFooter: null,
-  //     nzClassName: 'model-viewer-modal'
-  //   });
-  // }
-
   public createQuickList(item: SearchResult, amount: number): void {
     this.i18n.getNameObservable('items', +item.itemId).pipe(
       first(),

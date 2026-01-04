@@ -16,7 +16,6 @@
   "No_known_coordinates": "No known coordinates",
   "Edit_amount": "Edit amount",
   "List_fork_in_progress": "Copying the list to your account…",
-  "Network_error_logged_out": "A network error has been detected, and you have been logged out. If this issue persists, please contact Miu on the Discord server.",
   "Hide_zone_duplicates": "Hide zone duplicates (items that are in multiple zones are shown only once)",
   "Patch_notes": "Patch Notes",
   "Patch_notes_footer": "Do you enjoy the new features? Consider supporting the project on Patreon",
@@ -41,12 +40,10 @@
   },
   "ITEMS": {
     "Title": "Search",
-    "No_match": "No matching items",
     "Item_name": "Item name",
     "Add_to_list": "Add this item to a list",
     "Apply_filters": "Apply filters",
     "Reset_filters": "Reset filters",
-    "Too_many_results_warning": "This search returned over 100 items. Since our data source is limited to 100 results, you may need additional filters to find a specific item.",
     "Share_url": "Copy search url to your clipboard",
     "Share_url_copied": "Search url copied to your clipboard",
     "Only_craftable": "Only recipes",
@@ -57,25 +54,19 @@
   },
   "Use_as_default_character": "Use as default character",
   "Download_desktop_app": "Download desktop app",
-  "Find_us_on_twitter": "Find us on Twitter",
   "Join_discord_server": "Join our Discord server",
   "See_code_github": "Star the project on Github",
-  "Support_on_patreon": "Support the project on Patreon",
-  "Access_patreon_page": "Go to our Patreon page",
   "Like_the_tool": "Are you enjoying the tool so far?",
   "Default": "Default",
   "Delete": "Delete",
   "Copy_isearch": "Copy isearch macro",
-  "Isearch_copied": "/isearch {{itemname}} copied to clipboard",
   "Required_for_final_craft": "{{amount}} needed for final items, you might want them HQ",
   "Mark_HQ": "Mark as HQ required",
   "Unmark_HQ": "Remove HQ requirement",
-  "Compact_sidebar_toggle": "Toggle compact sidebar",
   "Confirmation": "Are you sure?",
   "Is_working_on_it": "{{name}} is working on it",
   "Work_on_it": "I'm working on it",
   "Remove_work_on_it": "Remove user assignment",
-  "Add_as_collectible": "Add as collectable",
   "Collectable_flag": "Collectable",
   "Compact_display": "Compact display",
   "Mute_alarms": "Mute alarms",
@@ -86,11 +77,8 @@
   "Requires_x_ventures": "Requires {{amount}} ventures to get everything",
   "WORKSHOP": {
     "Workshops": "Workshops",
-    "Add_one_list": "Add a list",
     "Add_workshop": "Add workshop",
     "Delete_message": "Deleting a workshop won't delete the lists in it. They will only be brought back to workshop-less lists",
-    "List_selection_title": "Select lists to add to workshop {{workshopName}}",
-    "Name_dialog": "Workshop name",
     "Created_by": "Created by {{name}}",
     "Share_link_copied": "Workshop share link copied",
     "Not_found": "Workshop not found or you don't have access to it",
@@ -111,25 +99,21 @@
   "Patreon_login_success": "Patreon login success!",
   "Tipeee_login_success": "Tipeee login success!",
   "Hide_if_empty": "Hide if empty",
-  "No_favorites": "No Favorite",
   "Ephemeral_list": "Will be deleted once completed",
   "Ephemeral_tag": "Ephemeral",
   "Archived_list": "Archived list (not loaded by default)",
   "Archived_tag": "Archived",
   "Remove_ephemeral": "Upgrade to permanent list",
   "Quick_list_create": "Create quick list (deleted once completed)",
-  "Tag_filter": "Tags",
   "Public_lists": "Community lists",
   "Your_public_lists": "Your community lists",
   "Public_list": "Community list",
   "Profile": "Profile",
   "Private_lodestone": "Your character is set to private on the lodestone",
   "Private_lodestone_explain": "Please make it visible to the public, at least its main profile, for Teamcraft to be able to use it.",
-  "X_for_total": "{{amount}} for total",
   "Discounts": "Discount",
   "Flat_discount": "Flat",
   "Percent_discount": "Percent",
-  "Path_copied_to_clipboard": "URL to the current page copied to clipboard",
   "COMMUNITY_LISTS": {
     "Tags_filter_placeholder": "Filter using tags",
     "Tags_filter_reset": "Reset tags filter",
@@ -140,19 +124,13 @@
     "Search": "Search"
   },
   "COMMON": {
-    "Play": "Play",
-    "Pause": "Pause",
     "Speed": "Speed",
     "Done": "Done",
     "Ready": "Ready",
     "Loading": "Loading",
-    "Length": "Length",
     "Save": "Save",
     "Reset": "Reset",
     "Total": "Total",
-    "User_id": "User ID",
-    "Open_url": "Open Teamcraft link",
-    "Open_url_placeholder": "Teamcraft link",
     "Select": "Select",
     "Anonymous": "Anonymous",
     "Warning": "Warning",
@@ -175,8 +153,6 @@
     "Amount": "Amount",
     "Undo": "Undo",
     "User": "User",
-    "Tables": "Table",
-    "Pie_charts": "Pie charts",
     "Read_more_on_wiki": "Read more details on wiki",
     "Apply": "Apply",
     "Open_link": "Open website link",
@@ -232,7 +208,6 @@
     "Add_alarm": "Add alarm",
     "Alarm_created": "Alarm created",
     "Alarms_created": "{{amount}} alarms created",
-    "Alarm_already_created": "Alarm already set",
     "Custom_sound": "Custom alarm sound",
     "Early_by_tip": "Negative value = later than the spawn",
     "New_group": "New alarm group",
@@ -247,7 +222,6 @@
     "Open_alarms_overlay": "Toggle alarms overlay",
     "More_available": "and {{amount}} more…",
     "Node_content": "Node content",
-    "Toggle_collapse": "Toggle groups collapse",
     "Add_alarms_to_group": "Add alarms to this group",
     "Group_link_copied": "Alarm group link copied",
     "Group_not_found": "Alarm group not found",
@@ -282,8 +256,6 @@
       "Spawns_twice": "Spawns twice",
       "Spawns_twice_description": "Spawns twice per Eorzean day (One spawn AM, one PM)",
       "Duration": "Duration (Eorzean hours)",
-      "Slot": "Slot",
-      "Slot_description": "The slot number (1-8) that the item appears in inside the in-game gathering interface (Not super important as of patch 5.1)",
       "Type": "Node type",
       "Map": "Map",
       "Weather": "Weather",
@@ -313,7 +285,6 @@
   "No_achievements_found": "No achievements found",
   "Select_all": "Select all results",
   "Unselect_all": "Unselect all results",
-  "Do you really want to reset the list?": "Do you really want to reset the list?",
   "Yes": "Yes",
   "No": "No",
   "Crystals": "Crystals",
@@ -330,7 +301,6 @@
   "Confirm": "Confirm",
   "Cancel": "Cancel",
   "Edit": "Edit",
-  "Add_a_list": "Add a list",
   "List_name": "List name",
   "Reset_progression": "Reset progression",
   "Gardening": "Gardening",
@@ -344,29 +314,20 @@
   "Treasures": "Can be obtained in",
   "Fates": "Fates",
   "Filters": "Filters",
-  "Check_all": "Check all",
-  "Uncheck_all": "Uncheck all",
   "Level": "Level",
   "Registration": "Registration",
   "Google_register": "Register with Google",
-  "Facebook_register": "Register with Facebook",
   "Google_login": "Log In with Google",
-  "Facebook_login": "Login in with Facebook",
   "Login": "Login",
   "Disconnect": "Disconnect",
   "Password": "Password",
   "Password_Confirmation": "Confirm Password",
   "Submit": "Submit",
-  "Invalid_credentials": "Invalid credentials",
   "Not_verified": "Not verified",
-  "Anonymous_Warning": "You should create an account to avoid losing your lists and enable more features like adaptive filter",
   "Game_Term/DoH": "Disciples of the Hand",
-  "Game_Term/DoL": "Disciples of the Land",
   "MIN/BTN": "Miner / Botanist",
   "Game_Term/FSH": "Fisher",
   "Reduction": "Reduction",
-  "Upgrade_list": "Recreate and update list for the latest app version",
-  "List_recreated": "Recreated list properly",
   "List_popup_title": "Regenerating the list, please wait",
   "Please_wait": "This should be fast, please wait a bit",
   "Not_own_list_outdated": "This list is outdated, please ask the owner to regenerate it",
@@ -377,14 +338,11 @@
   "Recipe_Added": "1 item added to list {{listname}}",
   "Recipes_Added": "{{itemcount}} items added to list {{listname}}, click this notification to open the list.",
   "Character_name": "Character Name",
-  "Character_add_warning": "If you are seeing this without having deleted your character manually, don't input anything and refresh the page or restart the app. If this problem persists, please report it on the Discord server.",
   "Disconnect_and_anonymous": "Disconnect and continue as anonymous",
   "Add_manual_character": "Add character",
   "Character_informations": "Character informations",
   "Server_name": "Server Name",
-  "Add_all_recipes": "Add results to a list",
   "Character_not_found": "Character not found",
-  "Use_lodestoneId": "Use lodestone ID",
   "LodestoneId": "Lodestone ID",
   "List_forked": "List copied to your account",
   "List_fork": "Copy this list to your account (ctrl + click to copy as offline list)",
@@ -401,8 +359,6 @@
   "Close": "Close",
   "Forgot_password": "Forgot password",
   "Email_enter": "Email",
-  "Email_not_found": "Email not found",
-  "Email_sent": "An email has been sent with instructions on how to change your password.",
   "Copy_current_link": "Copy a link to the current page on website to your clipboard",
   "ALARM": {
     "Spawned": "{{itemName}} will spawn!",
@@ -415,13 +371,10 @@
   "Pricing": "Pricing",
   "Earning": "Earning",
   "Benefits": "Benefits",
-  "Minimal_craft_cost": "Minimal craft cost",
   "Used_for": "Used for",
   "Or": "or",
-  "Data_from_gt": "Data provided by garlandtools.org",
   "Hide_completed": "Hide completed rows",
   "Required_crafts_amount": "Required amount of crafts",
-  "Missing_crafts_amount": "{{amount}} to reach total",
   "Requires": "Requires",
   "Copy_item_name_to_clipboard": "Copy item name to clipboard",
   "Item_name_copied": "{{itemname}} copied to clipboard",
@@ -435,7 +388,6 @@
     "Requires_restart": "Requires restart/refresh to be taken into account",
     "Title": "Settings",
     "General": "General",
-    "Link_base": "Item links",
     "DateFormat": "Date Format",
     "Region": "Region",
     "Region_explain": "Data source and functions based on specific game version will be adjusted per region. Some of them may not be available in certain regions.",
@@ -449,10 +401,6 @@
     "Start_minimized": "Start minimized in tray",
     "Always_quit": "Quit when clicking on close button (instead of minimizing)",
     "Enable_minimize_reduction": "Minimize to tray when clicking on reduce button (instead of reducing to taskbar)",
-    "Check_for_update": "Check for update",
-    "Downloading_update": "Downloading update",
-    "No_update_available": "No update available",
-    "Install_update": "Install update",
     "Preferred_copy_type": "Preferred copy type",
     "Auto_open_in_desktop": "Open links in desktop app when it is started",
     "Auto_download_update": "Download update when it's available",
@@ -472,7 +420,6 @@
     "Disable_fc_integration": "Disable FC sharing features",
     "Enable_item_tags": "Enable item tags",
     "Show_copy_list_own_list": "Show copy button on own list panels",
-    "Custom_theme": "Custom theme",
     "Show_all_alarms": "Always show all alarms",
     "Amount_display_mode": "List amounts display mode",
     "Amount_display_mode_remaining": "Remaining",
@@ -513,15 +460,12 @@
     "Enable_auto_stats_updating": "Automatically update stats/levels when switching job ingame",
     "Enable_metrics_capture": "Enable metrics capture",
     "Enable_metrics_capture_explain": "(allows to capture analytics on your gil and items income, never uploaded to the server, this is only for you)",
-    "Metrics_capture_folder": "Metrics log folder",
     "Enable_local_fishing_dump": "Enable local fishing reports dump",
     "Char_data_folder": "Character data folder (where the CHRXXXXXXX folders are)",
     "Maximum_vendor_price": "Maximum vendor price",
     "Maximum_vendor_price_explain": "Maximum price for an item to be caught by the CAN_BE_BOUGHT layout filter (0 = no maximum price)",
     "Maximum_total_vendor_price": "Maximum total vendor price",
     "Maximum_total_vendor_price_explain": "Maximum price for an entire row (unit price * quantity) for it to be caught by the CAN_BE_BOUGHT layout filter (0 = no maximum)",
-    "Rawsock_flag": "Use RawSocket for packet capture",
-    "Rawsock_details": "Using RawSocket captures the traffic without npcap, and can help with VPNs. However, it's overall less reliable and you need to manually start TC as admin everytime",
     "Favorite_features": "Favorite features",
     "Favorite_features_explain": "The features you want to show in the favorites section of the sidebar.",
     "Clear_inventory_on_startup": "Clear inventory on startup",
@@ -529,7 +473,6 @@
     "Reset_ignored_characters": "Reset ignored characters",
     "Reset_ignored_characters_ok": "Ignored characters have been reset",
     "Reset_contentid_characters": "Reset linked characters",
-    "Reset_contentid_characters_ok": "Linked characters have been reset",
     "Show_other_characters_inventories_in_list": "Show other characters inventories in lists",
     "Show_other_characters_inventories_in_inventory_page": "Show other characters' inventories in inventory page",
     "Alarm_panels_collapsed_by_default": "Alarm group panels collapsed by default",
@@ -575,7 +518,6 @@
       "Isearch": "Copy /isearch macro"
     },
     "CATEGORIES": {
-      "Autofill_completion": "Autofill completion sound",
       "Packet_capture": "Packet capture",
       "Networking": "Networking",
       "Theme": "Theme",
@@ -606,28 +548,22 @@
     }
   },
   "PROFILE": {
-    "Account": "Account",
     "Add_character": "Add a character",
     "Remove_character": "Remove this character",
     "Jobs": "Jobs",
     "Stats": "Stats",
-    "View_on_apkallu_falls": "Open in Apkallu Falls",
     "Masterbooks": "Master books",
     "Patreon_supporter": "Patreon Supporter",
-    "Patreon_features": "Patreon supporter features",
     "Contacts": "Contacts",
     "Add_new_contact": "New contact",
     "Save_for_all": "Save for all crafters",
-    "User_not_verified": "User not verified. Click to verify user.",
     "More_than_100_lists_created": "More than 100 lists created",
-    "Veteran": "Veteran",
     "Autofill_from_packets": "Autofill stats using packet capture (will take food stats into account too)",
     "Autofill_stats_explain": "Switch to the desired job in order to update it, and close this popup once you're done.",
     "Open_public_profile": "Open public profile",
     "Community_contributions": "Community contributions",
     "Fishing_rankings": "Fishing rankings",
     "Total_rankings": "Total rankings",
-    "Loading_fish_rankings": "Loading fishing rankings",
     "Gearset_priority": "Priority",
     "Gearset_priority_explain": "Used to decide which recipe to pick for items that can be crafted by multiple jobs like ingots, nuggets and other airship repair materials.",
     "Characters": "Characters",
@@ -648,8 +584,6 @@
   "LISTS": {
     "Load_archived": "Load archived lists",
     "Needs_verification": "Please verify your character to have access to the lists shared to your FC (https://wiki.ffxivteamcraft.com/guides/verify-your-character)",
-    "Regenerate_all": "Regenerate all lists",
-    "Regenerated_all": "Your lists are now up to date",
     "Merge_lists": "Merge lists",
     "Merge_lists_warning": "Big lists are not listed here because you can't merge lists that are too big due to database limitations.",
     "Lists_merged": "Lists merged with success!",
@@ -658,7 +592,6 @@
     "Reset_selection": "Reset selection",
     "Add_selection_to_list": "Add selection to list",
     "Your_lists": "Your lists",
-    "Outdated_tag": "Outdated",
     "No_lists": "No lists to display here",
     "List_aggregates": "List aggregates",
     "Lists_search_placeholder": "Search for a list…",
@@ -667,21 +600,13 @@
     "Import_description": "Pick the recipe you want to use for the items that can be crafted and select a list. The items will be added to this list and you'll be redirected to it.",
     "Delete_after_merge": "Delete original lists after merge",
     "Favorite_lists": "Favorite lists",
-    "No_favorite_lists": "You have no favorite lists",
     "Delete_multiple_lists": "Delete multiple lists",
     "IMPORT": {
       "Title": "Import list from external website",
       "Paste_link_step_title": "Paste your link to the external list",
-      "Paste_link_step_placeholder": "List link",
       "Link_not_supported": "This link can't be imported",
       "Links_supported": "Links supported: {{links}}",
       "Link_recognized": "{{type}} recognized, you can import it",
-      "Next": "Next",
-      "Back": "Back",
-      "Give_list_name": "Give your new list a name",
-      "Final_step": "Validation",
-      "Creating_list": "Creating the list",
-      "Loading_items": "Loading items informations",
       "Estimate_overmeld_materia": "Estimate required materias for overmelding",
       "Multiply_tool_materia": "Multiply materia for DoL (×2) and DoH (×8) tools",
       "Group_together": "Group materias together"
@@ -693,7 +618,6 @@
     "Unarchive": "Unarchive",
     "Regenerate": "Update list to latest Teamcraft version",
     "Rename": "Rename list",
-    "Copied_x_times": "Copied {{count}} times",
     "Enable_crystals_tracking": "Enable crystals tracking",
     "Always_show_inventory": "Always show inventory (disabled on small screens, < 600px)",
     "Copy_as_text": "Copy as text",
@@ -703,7 +627,6 @@
     "Ignore_currency": "Ignore this currency (only works if there's another way to buy)",
     "Total_trade_price": "Total: ",
     "Add_all_alarms": "Add all alarms for this list",
-    "History": "History",
     "Items_count": "{{amount}} items",
     "Show_craftable_amount": "Show craftable amount",
     "Show_vendors": "Show first available vendor for each item",
@@ -764,19 +687,12 @@
       "Nothing": "Nothing"
     },
     "BUTTONS": {
-      "Add_link_description": "Create a custom link for this list",
-      "Create_template_description": "Create a template link for this list, which will create a copy of the list for whoever opens it",
-      "Copy_template_url_description": "Copy the template link for this list, which will create a copy of the list for whoever opens it",
       "Share_description": "Copy share link to your clipboard",
       "Open": "Open list",
-      "Open_description": "Access the list",
-      "Delete": "Delete list",
-      "Delete_description": "Deletes the list",
       "Delete_warning": "Deleting a list can't be undone"
     }
   },
   "LIST_DETAILS": {
-    "List_finished": "List completed",
     "Public_list_description": "Setting a list to public adds it to the public lists section. THIS IS NOT REQUIRED TO SHARE A LIST",
     "Missing_tags_before_button": "This list is shown as a Community List but has no tags. Please add some tags using ",
     "Missing_tags_after_button": " button",
@@ -788,14 +704,11 @@
     "Note_placeholder": "Note",
     "Tags_popup": "Tags",
     "Inventory_breakdown": "Inventory",
-    "Open_in_ffxivgardening": "Open in ffxivgardening.com",
     "Add_all_item_alarms": "Add all alarms for this item",
     "Adaptative_filter": "Only show what I can do",
     "Disable_HQ_suggestions": "Disable automatic HQ flags",
     "Amount_craftable": "You can craft {{amount}}",
     "Add_item": "Add an item",
-    "List_large": "This is a large list",
-    "Enable_performance_mode": "You might want to enable performance mode in settings in order to get faster rendering. Do not report performance issues displaying this error as a bug, it will not be supported.",
     "List_too_large": "List too large",
     "List_too_large_description": "This list is too large and might slow down your computer or hit database limitations. To ensure you won't lose the list, you are no longer able to add further items to it unless existing items are removed.",
     "New_tag": "New tag",
@@ -855,8 +768,6 @@
       "Export_layout": "Export this layout",
       "Import_string": "Layout import code",
       "Import_string_copied": "Layout code copied!",
-      "Layout_name": "Layout name",
-      "Invalid_import": "Invalid import code",
       "Global_options": "General options",
       "Default_readonly_message": "This is one of the default layouts and is read-only. Please create a new layout with the + button to customize your layout.",
       "Buttons": "Buttons",
@@ -890,8 +801,6 @@
       }
     },
     "LAYOUT": {
-      "Filter": "Filter",
-      "Panel_name": "Panel name",
       "Order_by": "Sort by",
       "Order": "Order",
       "Tag_filter": "Tag filter"
@@ -979,10 +888,6 @@
     "Not_found": "Link not found",
     "Add_link": "Create a custom link",
     "Link_created": "Custom link created, click the share button to copy it",
-    "Dialog_title": "Custom link",
-    "Link_type": "Link type",
-    "Link_name": "Link name",
-    "target": "Link target",
     "Share_link_copied": "Custom link copied to clipboard",
     "Copy_custom_link": "Copy custom link",
     "No_links": "No custom links"
@@ -1010,32 +915,21 @@
     "Sublime_item_explain": "This item is obtained by getting its non-sublime variant with maximum collectability rating",
     "Fish_eyes": "Requires Fish Eyes to only care about weather requirement",
     "Add_alarm": "Add alarm",
-    "Add_alarm_fish_eyes": "Add alarm with Fish Eyes",
     "Snagging": "Requires Snagging",
     "Predators": "Fish these fish before",
-    "Fish_eyes_duration": "Your fish eyes needs to have this duration to get the fish. Click to change format.",
     "Spawned_for": "Will despawn in {{timer}}",
     "Will_spawn_in": "Will spawn in {{timer}}",
     "Ephemeral_warning": "Ephemeral nodes have multiple locations. Position is an approximation.",
     "Legendary": "Legendary",
-    "Switched_to_compact": "Display has been switched to compact because there's too many results.",
     "Node_type": "Type",
     "Use": "Use",
     "Page_range": "{{start}}-{{end}} of {{total}} items"
   },
-  "ANNOUNCEMENT": {
-    "Title": "Announcement",
-    "Read_more": "Read more"
-  },
   "LIST_TEMPLATE": {
     "Create_template": "Create a list template for this list",
     "Template_created": "List template created",
-    "Dialog_title": "Template creation",
-    "Link_name": "Template name",
     "Share_link_copied": "Template share link copied to the clipboard",
     "Copy_template_url": "Copy template url",
-    "Cloning_list": "Creating a copy of the list to your account",
-    "Redirect_notice": "You'll be redirected to the list once the clone is created",
     "Not_found": "Template not found",
     "STATUS": {
       "Loading": "Loading template from database",
@@ -1043,40 +937,24 @@
     }
   },
   "PERMISSIONS": {
-    "Read": "Read",
-    "Read_description": "The ability to see the list",
-    "Participate": "Participate",
-    "Participate_description": "This gives you permission to tick items and modify amounts done",
-    "Write": "Write",
-    "Write_description": "This gives you the permission to add items, add lists (for workshops)",
     "Title": "Permissions management",
     "Everyone": "Everyone",
-    "You": "You",
     "Add_new": "Add a user",
     "Add_new_fc": "Add a Free Company",
-    "Placeholder": "Email or User ID",
-    "Bind_free_company": "Bind some permissions to your Free Company",
     "User_not_found": "User not found",
-    "User_id_tip": "The user ID can be found in profile page in bottom-right corner",
-    "Saving": "Saving permissions",
-    "No_anonymous": "You need an account to manage permissions",
     "Propagate_changes": "Propagate permissions to lists inside the workshop",
     "Propagate_changes_done": "Changes propagated to lists inside the workshop",
-    "Team_notice": "The team associated to this list automatically has PARTICIPATE permission",
     "Default_permission_level": "Default permission level",
     "List_tooltip": "Permission level for everyone: {{level}}"
   },
   "WIKI": {
-    "Title": "Wiki",
-    "Not_found_in_current_lang": "This page wasn't found in your current language. English version will be shown",
-    "Not_found": "Page not found"
+    "Title": "Wiki"
   },
   "SIMULATOR": {
     "Title": "Crafting simulator",
     "Include_stats": "Include stats and consumables",
     "Fixed_notification_number": "Fixed notification",
     "Starting_echo_number": "Notification #",
-    "Break_on_reclaim": "Split macros on Reclaim point-of-no-return",
     "Break_before_byregots_blessing": "Split macros before Byregot's Blessing",
     "Include_consumables_notification": "Include consumables notification",
     "Include_consumables_notification_wait_time": "Wait time after consumables notification",
@@ -1084,7 +962,6 @@
     "Extra_wait": "Extra wait",
     "Completion_message": "Completion message",
     "Import_macro": "Import from ingame macro",
-    "Ingame_macro": "Ingame macro",
     "Min_stats": "Minimum stats",
     "Min_stats_base": "Minimum without buffs",
     "Progress": "Progress",
@@ -1105,7 +982,6 @@
     "Median_HQ": "Median HQ",
     "Min_HQ": "Min. HQ",
     "Max_HQ": "Max. HQ",
-    "Specialist": "Specialist",
     "New_rotation": "New rotation",
     "Rotations": "Crafting rotations",
     "Favorite_Rotations": "Favorite Rotations",
@@ -1117,8 +993,6 @@
     "Export_crafting_optimizer": "Export using crafting optimizer format",
     "Export_copied": "Crafting optimizer export code copied to your clipboard",
     "Unsaved_changes": "You have unsaved changes. Please save before leaving this page or changes will be lost.",
-    "Crafting_optimizer_code": "Crafting optimizer import code",
-    "Generated_macro": "Ingame Macro",
     "Generate_ingame_macro": "Convert to ingame macro",
     "Share_button_tooltip": "Copy share link",
     "Share_link_copied": "Rotation share link copied to clipboard",
@@ -1126,15 +1000,11 @@
     "Rotation_not_found": "Rotation not found",
     "Confirm_delete": "Do you really want to delete this rotation?",
     "Toggle_snapshot_mode": "Toggle snapshot mode",
-    "Open_in_external": "Open in {{name}}'s sim",
-    "Select_job_please": "Please select a job",
     "Rename_rotation": "Rename Rotation",
     "Include_sound_end": "Include end of macro sound",
     "Step_by_step_report": "Step by step report",
     "Save_as_new": "Save as new (navigates to the newly created rotation)",
-    "Save_as_new_done": "You're now on a copy of your rotation",
     "Change_rotation": "Change rotation",
-    "New_rotation_folder": "New folder",
     "Safe_mode": "Safe mode",
     "Safe_mode_tooltip": "Disables all the skills that aren't 100% chance to succeed (takes buffs into account)",
     "Quality_needed": "{{amount}} more quality to reach 100%",
@@ -1150,7 +1020,6 @@
     "Click_on_rotation": "Click on a rotation to select it",
     "Recipe_picker_placeholder": "Enter the name of the recipe you want to craft",
     "Could_not_find_minstats": "Could not find minimum stats for this rotation",
-    "Remove_final_appraisal": "Remove Final Appraisal buff",
     "Macro_duration": "Macro duration: {{duration}}s.",
     "Total_macro_duration": "Total macro duration: {{duration}}s.",
     "Compact": "Compact",
@@ -1171,11 +1040,6 @@
       "Primed": "Primed",
       "Normal": "Normal",
       "Good_omen": "Good Omen"
-    },
-    "SOLVER": {
-      "Hq_target": "Target HQ%",
-      "Use_rotation_as_seed": "Use current rotation as starting point",
-      "Disclaimer": "The solver is a work in progress, please keep in mind that it's not made to create perfect rotations, it's an AI trying to improve with time that can yield very bad results as well as very good ones. Please do not report bad results as bug."
     },
     "COMMUNITY_ROTATIONS": {
       "Title": "Community rotations",
@@ -1205,17 +1069,11 @@
         "NOT_SPECIALIST": "Not specialist",
         "TEALESS": "Tealess",
         "FOODLESS": "Foodless",
-        "MAKERS_MARK": "Maker's Mark",
-        "MUSCLE_MEMORY": "Muscle Memory",
-        "REUSE": "Reuse"
+        "MUSCLE_MEMORY": "Muscle Memory"
       }
     },
     "CUSTOM": {
-      "Recipe_configuration": "Recipe configuration",
-      "Recipe_level": "Recipe level",
-      "Recipe_progress": "Max progress",
-      "Recipe_quality": "Max quality",
-      "Recipe_durability": "Durability"
+      "Recipe_configuration": "Recipe configuration"
     },
     "ROTATIONS": {
       "Search_placeholder": "Search a rotation",
@@ -1230,10 +1088,7 @@
         "New_folder": "New folder",
         "Delete_message": "Deleting a folder won't delete the rotations inside.",
         "Share_link_copied": "Rotation folder share link copied to your clipboard",
-        "Shared_by": "Shared by {{name}}",
         "Created_by": "Created by {{name}}",
-        "Copy_folder": "Copy this folder and its content to your account",
-        "Folder_copied": "Folder copied to your account",
         "Your_folders": "Your folders",
         "Favorite_folders": "Favorite folders",
         "Add_rotations": "Add rotations",
@@ -1243,9 +1098,7 @@
     "CATEGORY": {
       "Progression": "Progression",
       "Quality": "Quality",
-      "Cp_recovery": "CP Recovery",
       "Buff": "Buff",
-      "Specialty": "Specialty",
       "Repair": "Repair",
       "Other": "Other"
     },
@@ -1318,7 +1171,6 @@
     "Level_range": "Level range",
     "No_results": "No levequests found",
     "Add_to_list": "Add this levequest's items to a list",
-    "Quantity": "Quantity",
     "All_deliveries": "All {{value}} Deliveries",
     "Compute_exp": "Show impact on xp",
     "Global_exp": "Use global exp",
@@ -1339,8 +1191,6 @@
     "List_item_comment_added": "Comment posted on {{itemName}}, list {{listName}}: \"{{content}}\"",
     "Db_comment": "New comment in db: \"{{comment}}\"",
     "Db_comment_reply": "New reply to one of your comments: \"{{comment}}\"",
-    "Blog_post": "New blog post: {{title}}",
-    "Mark_all_as_read": "Mark all as read",
     "No_notifications": "No notifications"
   },
   "TEAMS": {
@@ -1445,7 +1295,8 @@
     "New_update_available_desktop": "A new update is available!\nClick here to download and install it.",
     "Web_instructions": "Please reload the page to get the latest version.",
     "Downloading_update": "Downloading the update! You'll be prompted to install once the download is done",
-    "Possible_update_issue": "It seems like your download is having an issue. Please click this icon to download latest setup."
+    "Possible_update_issue": "It seems like your download is having an issue. Please click this icon to download latest setup.",
+    "Restart_to_install": "Do you want to restart now to apply it?"
   },
   "LOG_TRACKER": {
     "Title": "Log Tracker",
@@ -1456,10 +1307,8 @@
     "Create_list": "Create a list to complete this page",
     "Create_list_limited": "Create a list to complete this page (50 items max)",
     "Create_list_selection": "Create a list from selection ({{amount}})",
-    "Folklore": "Regional Folklore",
     "Timed": "Timed",
     "Weather_dependant": "Only with some weathers",
-    "View_on_ff14angler": "More details on ff14angler",
     "Required_for_achievement": "Required for the achievements",
     "Select_spot": "Select a spot to see its details",
     "Hide_completed": "Hide completed recipes",
@@ -1488,86 +1337,10 @@
       "Additions": "Additions",
       "Deletions": "Deletions",
       "Save": "Apply these changes"
-    },
-    "PAGE": {
-      "Master_recipes": "Master recipes ({{number}})",
-      "Housing_items": "Housing({{number}})",
-      "Others": "Others",
-      "Dyes": "Dyes",
-      "Other_master_recipes": "Other Master Recipes",
-      "Deliveries": "Deliveries",
-      "Quests": "Quests"
     }
-  },
-  "LOADING_SCREEN": {
-    "Loading_data": "Loading items, actions, and more!"
   },
   "CUSTOM_ITEMS": {
-    "Title": "Custom items",
-    "New_item": "Create new custom item",
-    "New_folder": "Create new folder",
-    "Rename_folder": "Rename folder",
-    "Import_items": "Import custom items",
-    "Save": "Save item",
-    "Details": "Item details",
-    "Export_item": "Export item",
-    "Export_items": "Export multiple items",
-    "Add_to_list": "Add to a list",
-    "No_items": "You have no custom items",
-    "DETAILS": {
-      "Level": "Level",
-      "None": "none",
-      "Stars": "Stars",
-      "Requirements": "Requirements",
-      "Add_requirement": "Add requirement",
-      "Yields": "Yields",
-      "Name": "Name",
-      "ID": "Item ID",
-      "CRAFT": {
-        "Title": "Crafted by",
-        "Job": "Job",
-        "No_requirement_warning": "You don't have any requirement setup for this item. It means that you are creating a craft with 0 ingredients."
-      },
-      "GATHERING": {
-        "Title": "Gathered by",
-        "Type": "Node type",
-        "Folklore": "Folklore",
-        "Slot": "Slot"
-      },
-      "ALARMS": {
-        "Title": "Alarms"
-      },
-      "VENDORS": {
-        "Title": "Vendors",
-        "Npc_name": "NPC name",
-        "Price": "Price",
-        "Delete_vendor": "Delete vendor"
-      },
-      "TRADES": {
-        "Title": "Trade sources",
-        "Npc_name": "NPC name",
-        "Shop_name": "Shop name",
-        "Delete_trade": "Delete trade",
-        "Trade_details": "Trade details",
-        "Add_currency": "Add a currency"
-      },
-      "REDUCTION": {
-        "Title": "Reduced from"
-      }
-    },
-    "NPC_PICKER": {
-      "Title": "Find a NPC",
-      "Npc_name": "NPC name"
-    },
-    "IMPORT": {
-      "Corrupted_file": "Import file is corrupted or wrong format",
-      "Drag_or_click": "Drag the file here or click to select it",
-      "Format": "Format",
-      "Folder": "Folder",
-      "No_folder": "No folder",
-      "Parsing_file": "Parsing file content…",
-      "Saving_items": "Saving items ({{done}}/{{todo}})"
-    }
+    "Title": "Custom items"
   },
   "DIRTY": {
     "Dialog_title": "You have unsaved changes",
@@ -1616,7 +1389,6 @@
     "Class_job": "Class/Job",
     "Delay": "Delay",
     "Auto": "Auto",
-    "Salvage_level": "Optimal Desynth lvl",
     "Sells_for": "Sell price",
     "Click_to_navigate": "Click on the icon to open full item details",
     "Triple_triad_duels": "Triple triad duels",
@@ -1637,13 +1409,9 @@
     "Sync_to": "Level max.",
     "Exp": "Exp",
     "Week_restriction": "Weekly restriction",
-    "Fights": "Fights",
     "Instance_details": "Instance details",
     "Instance_rewards": "Rewards",
     "Unlocked_by": "Unlocked by",
-    "Chest_content": "Chest content",
-    "Currencies_reward": "Currencies reward",
-    "Instance_chests": "Chests",
     "Position": "Position",
     "Content": "Content",
     "Gil": "Gil",
@@ -1662,8 +1430,6 @@
     "Select_data_type": "Select data types to show to see the details here",
     "Desynths_to": "Desynths to",
     "Limited": "Limited spawn",
-    "3d_model_viewer": "3D model preview",
-    "3d_model_help": "Preview 3D model",
     "Achievements": "Achievements",
     "Currencies": "Currencies",
     "Rowena_splendor": "Rowena's splendors",
@@ -1676,8 +1442,6 @@
       "Required_craftsmanship": "Req. Craftsmanship",
       "Required_control": "Req. Control",
       "Mark_as_done_in_gathering_log": "Mark as done in log",
-      "X_Equipped": "{{amount}} Equipped:",
-      "Item_series": "Set details",
       "Requires_fate_rank": "Requires FATE rank {{rank}}",
       "Requires_gc_rank": "Requires Grand Company rank {{rank}}"
     },
@@ -1694,7 +1458,6 @@
       "Weather_transitions": "Weather transitions",
       "Hooksets": "Hooksets",
       "Tugs": "Tugs",
-      "Seconds": "Seconds",
       "Bite_time": "Bite time",
       "Spots": "Spots",
       "Min_gathering": "Min. gathering",
@@ -1707,12 +1470,9 @@
       "No_known_mooch_usage": "No known mooch usage for this fish",
       "No_spot_filter": "No spot filter",
       "Chances_for_transition": "Chance for this transition to happen",
-      "Weather_chances": "Chance for each weather to appear",
       "Bait": "Fishing bait",
-      "Refresh_data": "Refresh data",
       "Bite_times": "Bite times",
       "All_baits": "No bait filter",
-      "Ranking": "Ranking",
       "Top_users": "Top rankings",
       "Your_ranking": "Your ranking",
       "Include_fisheyes_data": "Include reports using Fish Eyes",
@@ -1736,7 +1496,6 @@
         "Current_weather": "Current weather",
         "Previous_weather": "Previous weather",
         "Spot": "Spot",
-        "Possible_fish": "Possible fish",
         "Stats": "Stats",
         "Statuses": "Statuses",
         "No_statuses": "No relevant statuses",
@@ -1795,16 +1554,11 @@
       "Possible_trades": "Possible trades"
     },
     "NPC": {
-      "Other_entries": "Other appearances",
       "Default_talk": "Base dialogues",
       "Quests": "Quests",
       "Shops": "Shops",
       "Leves": "Leves",
       "Trades": "Trades"
-    },
-    "FIGHT_TYPE": {
-      "Boss": "Boss",
-      "MidBoss": "Boss"
     },
     "LEVE": {
       "Required_items": "Required items",
@@ -1815,7 +1569,6 @@
       "Turn_ins": "Turn-ins"
     },
     "MOB": {
-      "Known_spawns": "Known spawns",
       "Known_drops": "Known drops"
     },
     "DATA_TYPE": {
@@ -1923,7 +1676,6 @@
     "Leve_info_message": "You can use the levequests page to prepare levekits and compute exp reward for your leves",
     "Comparison_tip": "You can compare items by selecting them and setting selection to comparison mode",
     "Monster": "Monster",
-    "Lore": "Lore",
     "Fate": "Fate",
     "Map": "Map",
     "Action": "Action",
@@ -1935,10 +1687,7 @@
     "Gathering-node": "Gathering node"
   },
   "SEARCH_FILTERS": {
-    "Level": "Level",
-    "Leve_job": "Leve job",
-    "Job": "Job",
-    "Leve_level": "Required level"
+    "Level": "Level"
   },
   "RECIPE_FINDER": {
     "Title": "Recipe finder",
@@ -1981,8 +1730,6 @@
     "Description": "Got too much of a currency? Select your currency, set an amount, select a server, and find which item is the best to buy to get gil from your currencies!",
     "Pick_currency": "Pick a currency",
     "You_can_buy": "You can buy {{amount}}",
-    "Disabled": "The currency spending guide isn't working anymore",
-    "Disabled_description": "This is due to Square Enix stopping us from fetching marketboard information. If you want to complain about this, please complain to Square Enix, as there is nothing we can do to make this work without them.",
     "Loading_data": "Loading trades data for the selected currency",
     "Loading_universalis": "Fetching marketboard prices from Universalis for {{amount}} items",
     "X_sold_last_week": "{{amount}} sold last week",
@@ -1993,11 +1740,7 @@
     "Description": "You want to know which food will give the stats you want? Look no further, you're where you need to be!",
     "Pick_stat": "Choose an attribute"
   },
-  "BLOG": {
-    "Title": "Blog"
-  },
   "ERRORS": {
-    "Http_request_error": "There is an issue with {{tool}}, please wait a moment and try again. If the issue persists, check #announcements in the Teamcraft Discord server for updates.",
     "Firebase_blocked": "Teamcraft could not reach the database, it seems like something is blocking it or you don't have access to the internet."
   },
   "SEARCH": {
@@ -2073,8 +1816,6 @@
     "Please_zone": "Please teleport to a random location in another zone and open your chocobo saddlebag once you are arrived to initialize the inventory system properly.",
     "Please_sort": "Inventory tracking cannot work without knowing which character you're currently playing. Please sort/unsort your inventory or log in with your character to have Teamcraft detect your current character.",
     "Unknown_character": "Unknown ingame character",
-    "No_character_id": "No ingame character ID set",
-    "Please_relog": "In order to contribute to Universalis, we need you to log out and in (ingame). This is only needed once.",
     "Inventory_outdated": "Your inventory is outdated",
     "Please_update_inventory_popup": "Please change zone (by either teleporting or entering a house) in order to update your inventory. This popup will close once it's done. If this issue persists, try the packet capture troubleshooting guide in the pinned messages of #troubleshooting in the Teamcraft Discord server.",
     "Outdated": "Packet capture isn't working",
@@ -2098,7 +1839,6 @@
     "Copy_to_clipboard": "Copy inventory to clipboard",
     "Copied_to_clipboard": "Inventory copied to clipboard",
     "Click_to_add_to_progression": "Click to add to item progression",
-    "Contribute_to_universalis": "Contribute data to Universalis",
     "Reset_inventory": "Reset this inventory",
     "Clean_all": "Reset all your inventories",
     "Search_for_an_item": "Search for an item",
@@ -2115,6 +1855,7 @@
       "Armory": "Armory",
       "Current_Gear": "Current gear",
       "RetainerMarket": "On sale by retainers",
+      "RetainerBag": "On retainer inventory",
       "IslandSanctuaryBag": "Island Sanctuary Bag"
     },
     "CONTENT_ID_POPUP": {
@@ -2202,7 +1943,6 @@
     "Rename_gearset": "Rename gearset",
     "View_gearset": "View gearset",
     "Edit_gearset": "Edit gearset",
-    "generate_list": "Generate a list",
     "Content": "Content",
     "Stat_name": "Stat",
     "Current_value": "Current",
@@ -2212,7 +1952,6 @@
     "Value": "Value",
     "Empty_slot": "Empty slot",
     "Filters": "Filters",
-    "Total_stats": "Total stats",
     "Total_materias_needed": "Total materias needed",
     "Total_cost": "Total cost (trades, gil, etc)",
     "Materia": "Materia",
@@ -2234,7 +1973,6 @@
     "Pieces": "Gear pieces",
     "Import_from_ariyala": "Import from Ariyala",
     "Import_from_etro": "Import from Etro",
-    "Import_from_lodestone": "Import from Lodestone",
     "Import_using_pcap": "Import using packet capture",
     "Sync_with_pcap": "Sync gearsets with packet capture",
     "Your_gearsets": "Your gearsets",
@@ -2250,13 +1988,10 @@
     "Copy_as_text": "Copy this gearset as text",
     "Include_all_tools": "Include tools for the other jobs too",
     "Use_in_simulator": "Use these stats in the simulator",
-    "Please_input_lodestone_id": "Please input lodestone id",
-    "Paste_lodestone_id": "Paste lodestone id",
     "Currency": "Currency",
     "Optimize_materias": "Optimize materias order",
     "No_trades_needed": "No trades needed",
     "Stats_caps": "Stats caps",
-    "Stat_computing_diclaimer": "Results are not 100% accurate, they are from players (the allagan studies) like you and me who spend a lot of time trying to figure the formulas, please do not report inaccuracies as bug.",
     "Missing_items": "It looks like you're missing some slots, make sure your filters are properly set",
     "Copied_as_string": "Gearset copied as string",
     "Mark_as_done": "Mark as done",
@@ -2281,7 +2016,6 @@
       "Neck": "Neck",
       "OffHand": "Off Hand",
       "SoulCrystal": "Soul Crystal",
-      "Waist": "Waist",
       "Wrists": "Wrists"
     },
     "COMPARISON": {
@@ -2329,7 +2063,6 @@
     "Favorite_folders": "Favorite folders"
   },
   "TUTORIAL": {
-    "Start": "Start tutorial for this page",
     "Next": "Next",
     "Done": "Done",
     "POPUP": {
@@ -2342,9 +2075,7 @@
       "Profile": "Hover your name to access profile editor and configure your levels, your stats, and more."
     },
     "SEARCH": {
-      "Search_type": "You can change the type of data you're looking for here (Item, Quest, Map, Node, NPC, etc).",
-      "Share": "Use this button to get your search results as a shareable link.",
-      "Filters": "Open this panel to use advanced filters, to filter by stat, bonus, ilvl, and more"
+      "Search_type": "You can change the type of data you're looking for here (Item, Quest, Map, Node, NPC, etc)."
     },
     "LIST_PANEL": {
       "Share": "Click here to copy a link to this list, to easily share it.",
@@ -2352,10 +2083,8 @@
       "More": "Click this menu to rename the list, manage permissions, and more."
     },
     "LIST": {
-      "HQ_mark": "This icon means that this item is required for a final recipe, so you might want to have it HQ, but aren't forced to.",
       "Layout": "You can edit the display entirely, change panels and how they filter data by opening the layout editor. The button to the left of this one is used as a quick layout switch.",
       "Permissions": "You can edit permissions, add other users, make your list read-only, share it to a FC, and more, by opening the permission editor.",
-      "Fill_with_inventory": "You can add everything that's inside your inventory inside this list.",
       "Pricing_mode_button": "Easily prepare and predict your benefits for this list using the pricing mode.",
       "More_actions_button": "This button opens a menu with a lot of different actions for the current list row. You can convert these actions to buttons using the layout editor.",
       "Alarm_button": "Click here to create an alarm for this item, to be alerted when it spawns."
@@ -2660,7 +2389,6 @@
       "Contact_info_placeholder": "How can the client contact you to talk about your application if needed? Discord, ingame, email, as you want."
     },
     "NOTIFICATIONS": {
-      "Click_to_open": "Click to open the commission",
       "CONTRACT_ENDED_CONTRACTOR": {
         "Title": "Commission contract ended",
         "Content": "You are no longer the contractor for commission {{name}}"
@@ -2718,17 +2446,8 @@
     }
   },
   "MAPPY": {
-    "Total_entries": "Total entries",
     "Last_updated": "Last updated",
-    "Last_bnpc_update": "Last monster position uploaded",
-    "Last_node_update": "Last node position uploaded",
-    "Clear_map": "Clear this map",
     "Dashboard": "Mappy Dashboard",
-    "Open_details": "Open details page",
-    "X_Missing_nodes": "{{amount}} missing node(s)",
-    "Missing_nodes": "Missing nodes",
-    "No_missing_nodes": "No missing nodes",
-    "Only_missing_nodes": "Only show maps with missing nodes"
   },
   "WORKSHOP_TREE": {
     "Title": "Workshop recipe tree",
@@ -2795,13 +2514,10 @@
       "Discord_rank": "Special rank on the Discord server, giving you access to supporters channel to see what's we're working on (${{price}})",
       "Profile_badge": "Special badge on your Teamcraft profile (${{price}})",
       "Custom_theme": "Better theme customization, with custom color input (${{price}})",
-      "Pins_badge": "Exclusive Teamcraft pins badge sent to you (${{price}}) (needs you to fill out shipment details on Patreon)",
       "Loading_screen_message": "Add a new entry inside the \"Brought to you by…\" loading message, with your name, your FC name, LS name, whatever you want to add! (${{price}})"
-    },
-    "Select_retainer": "Pick one of your retainers"
+    }
   },
   "FREE_COMPANY_WORKSHOPS": {
-    "Import_using_pcap": "Import using packet capture",
     "Go_to_workshop": "Enter your workshop",
     "Go_to_workshop_description": "If you're already in it, please exit the workshop and enter again.",
     "Open_fc_window": "Open your Free Company details window",
@@ -2927,8 +2643,6 @@
     "Cross_breeds": "Cross breeds"
   },
   "ALLAGAN_REPORTS": {
-    "Feature_banner_title": "New feature: Allagan Reports",
-    "Feature_banner_description": "Found an item with missing data? You can now report item sources in the Allagan Reports system (General > Allagan Reports) and get them included inside the app in the following update!",
     "Title": "Allagan reports",
     "Reports": "Reports",
     "Pending_changes": "Pending changes",
@@ -2941,7 +2655,6 @@
     "Venture_placeholder": "Venture name",
     "Monster_placeholder": "Monster name",
     "Voyage_placeholder": "Voyage name",
-    "Achievement_placeholder": "Achievement name",
     "Quest_placeholder": "Quest name",
     "Voyage_type": "Voyage type",
     "Reported_by": "Reported by",
@@ -2965,7 +2678,6 @@
     "Predator": "Predator",
     "Predator_explain": "Fish to catch before getting fisher's intuition or the fish for spearfishing",
     "Unknown_hookset": "Unknown hookset",
-    "Gig_head": "Gig head",
     "No_predators": "No predators",
     "Loading_gubal_analysis": "Loading gubal analysis",
     "Gubal_analysis_suggestion": "Suggestion based on data analysis",
@@ -2974,7 +2686,6 @@
     "Add_data_sources": "Add/modify data sources for this item",
     "Not_applied_yet": "Not applied",
     "Not_applied_yet_explain": "This source will be added to the list and database system during the next update",
-    "Pending_changes_count": "{{amount}} pending changes to review",
     "Review_changes": "Review changes",
     "Imported_from_GT_data": "Imported from Garlandtools",
     "Status": "Status",
@@ -3035,7 +2746,6 @@
       "FATE": "FATE",
       "MOGSTATION": "MOGSTATION",
       "DEPRECATED": "DEPRECATED",
-      "ISLAND_ANIMAL": "ISLAND_ANIMAL",
       "QUEST": "QUEST"
     },
     "STATUS": {
@@ -3050,10 +2760,6 @@
     "SUNSET": "Sunset",
     "DAY": "Day",
     "NIGHT": "Night"
-  },
-  "UPDATER": {
-    "New_update_available": "A new update is available and has been downloaded",
-    "Restart_to_install": "Do you want to restart now to apply it?"
   },
   "NODE_TYPE": {
     "Mining": "Mining",
@@ -3112,7 +2818,6 @@
     }
   },
   "ISLAND_SANCTUARY": {
-    "Animal_source": "You need to gather this item from one of the following animals in your Island Sanctuary pasture",
     "Island_level": "Island level",
     "Landmarks": "Landmarks",
     "Workshop_rank": "Workshop rank",
@@ -3133,14 +2838,8 @@
       "Demand_shift": "Demand shift",
       "Predicted_popularity": "Predicted demand",
       "Edit_mode": "Edit mode",
-      "Best_items_to_craft": "Best items to craft",
-      "Total_value": "Total value",
-      "Run_optimizer": "Find best planning for the rest of the week",
-      "No_schedule_found": "No planning found",
-      "No_schedule_found_explain": "Make sure the reset is in more than 4 hours",
       "Possible_peak_days": "Possible peaks",
       "Peak_days_explain": "The days on which it's more likely that this item will peak in value. Bold = strong peak.",
-      "Items_to_prepare": "Best items to prepare for tomorrow",
       "Rest": "Rest day",
       "Unknown_day_planning": "Available on {{day}}",
       "Set_rest_day": "Set as second rest day",
@@ -3151,8 +2850,6 @@
       "Exclude_crop_materials": "Exclude crop materials",
       "Display_item_metadata": "Display category and craft time of items in planning",
       "Groove_tooltip": "Groove at the end of the day",
-      "Crafting_time": "Crafting time",
-      "Categories": "Categories",
       "No_planning": "No planning available",
       "No_planning_explain": " Teamcraft is not able to compute a planning because there's too few recipes available, try to change your island level or uncheck some material exclusions.",
       "Next_week_prep": "Materials you should prepare for next week",
@@ -3211,8 +2908,6 @@
     "Copy_move_macro": "Copy train move macro",
     "Slap": "Slap: {{target}}",
     "Fish_before": "Intuition Trigger Requirements: {{target}}",
-    "Current_position_macro": "/shout Fish train is currently fishing for {{itemName}} at {{mapName}}: {{coords}}. Preferred bait: {{bait}}, min gathering: {{minGathering}}.",
-    "Next_position_macro": "/shout Choo Choo ! Fish train is moving to {{mapName}}: {{coords}} in order to fish {{itemName}}. Preferred bait: {{bait}}, min gathering: {{minGathering}}.",
     "Board_train": "Board train",
     "Leave_train": "Leave this train",
     "Stats": "Stats",
@@ -3234,7 +2929,6 @@
     "Train_conductor": "Train conductor: {{name}}",
     "No_conductor": "No conductor",
     "Rename_train": "Rename this train",
-    "No_slap": "No slap",
     "Select_slap": "Pick a fish to slap",
     "Visiblity_explain": "Public trains are visible in the Trains page",
     "Moving_notification_title": "Train is moving to next spot",
@@ -3267,7 +2961,6 @@
   "TITLE": {
     "Search": "Search",
     "Lists": "Lists",
-    "Crafting_Simulator": "Crafting Simulator",
     "Crafting_Rotation": "Crafting Rotation",
     "Gearsets": "Gearsets",
     "Crafting_Replays": "Crafting Replays",

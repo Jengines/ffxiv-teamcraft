@@ -42,12 +42,6 @@
             <a *ngFor="let link of links" [href]="link.url" [nzTooltipTitle]="link.title" nz-tooltip target="_blank">
               <img [alt]="link.title" [src]="link.icon" class="link-icon">
             </a>
-            <!--            <button (click)="openModelViewer(xivapiItem, gtData)" *ngIf="gtData.item.models?.length > 0"-->
-            <!--                    [nzTooltipTitle]="'DB.3d_model_help' | translate" nz-button-->
-            <!--                    nz-tooltip-->
-            <!--                    nzShape="circle">-->
-            <!--              <span>3D</span>-->
-            <!--            </button>-->
             <app-marketboard-icon *ngIf="!item.trade" [itemId]="item.id"
                                   [showHistory]="true"
                                   [size]="'small'"></app-marketboard-icon>

@@ -1445,7 +1445,8 @@
     "New_update_available_desktop": "Une nouvelle mise à jour est disponible !\nCliquez ici pour la télécharger et l'installer.",
     "Web_instructions": "Veuillez recharger la page pour obtenir la version la plus récente.",
     "Downloading_update": "Téléchargement de la mise à jour ! Un redémarrage vous sera proposé une fois celle-ci téléchargée",
-    "Possible_update_issue": "Il semble que votre téléchargement ait un problème, veuillez cliquer sur cette icône pour télécharger le dernier installateur."
+    "Possible_update_issue": "Il semble que votre téléchargement ait un problème, veuillez cliquer sur cette icône pour télécharger le dernier installateur.",
+    "Restart_to_install": "Voulez-vous redémarrer maintenant pour l'appliquer ?"
   },
   "LOG_TRACKER": {
     "Title": "Carnets",
@@ -2234,7 +2235,6 @@
     "Pieces": "Pièces d'équipement",
     "Import_from_ariyala": "Importer depuis Ariyala",
     "Import_from_etro": "Importer depuis Etro",
-    "Import_from_lodestone": "Importer depuis Lodestone",
     "Import_using_pcap": "Importer en utilisant la capture de paquets",
     "Sync_with_pcap": "Synchroniser les tenues avec la capture de paquets",
     "Your_gearsets": "Vos tenues",
@@ -2250,13 +2250,10 @@
     "Copy_as_text": "Copier cet ensemble d'équipements sous forme de texte",
     "Include_all_tools": "Inclure aussi les outils des autres jobs",
     "Use_in_simulator": "Utiliser ces caractéristiques dans le simulateur",
-    "Please_input_lodestone_id": "Veuillez saisir l'ID Lodestone",
-    "Paste_lodestone_id": "Coller l'ID Lodestone",
     "Currency": "Devise",
     "Optimize_materias": "Optimiser l'ordre des matérias",
     "No_trades_needed": "Aucun échange nécessaire",
     "Stats_caps": "Max stats",
-    "Stat_computing_diclaimer": "Les résultats ne sont pas 100% exacts, ils sont issus de joueurs (the allagan studies) comme vous et moi qui ont passé beaucoup de temps à essayer de trouver les formules, ne signalez pas les inexactitudes comme un bug.",
     "Missing_items": "Il semble qu'il vous manque certains éléments, assurez-vous que vos filtres sont correctement définis",
     "Copied_as_string": "Tenue copiée au format texte",
     "Mark_as_done": "Marqué comme fait",
@@ -2281,7 +2278,6 @@
       "Neck": "Cou",
       "OffHand": "Main secondaire",
       "SoulCrystal": "Cristal d’âme",
-      "Waist": "Taille",
       "Wrists": "Poignets"
     },
     "COMPARISON": {
@@ -2329,7 +2325,6 @@
     "Favorite_folders": "Dossiers favoris"
   },
   "TUTORIAL": {
-    "Start": "Démarrer le tutoriel pour cette page",
     "Next": "Suivant",
     "Done": "Terminé",
     "POPUP": {
@@ -2342,9 +2337,7 @@
       "Profile": "Passez votre souris ici pour accéder aux menu de profil pour configurer vos jobs, vos stats, et plus encore."
     },
     "SEARCH": {
-      "Search_type": "Vous pouvez changer le type de recherche ici (objet, quête, carte, nœud, PNJ, etc).",
-      "Share": "Utilisez ce bouton pour obtenir un lien de partage de cette recherche.",
-      "Filters": "Ouvrez ce panneau pour utiliser des filtres avancés, pour filtrer par caractéristique, bonus, ilvl, et plus encore"
+      "Search_type": "Vous pouvez changer le type de recherche ici (objet, quête, carte, nœud, PNJ, etc)."
     },
     "LIST_PANEL": {
       "Share": "Cliquez ici pour obtenir un lien vers cette liste afin de la partager facilement.",
@@ -2352,10 +2345,8 @@
       "More": "Cliquez sur ce menu pour renommer la liste, gérer les permissions, et plus encore."
     },
     "LIST": {
-      "HQ_mark": "Cette icône signifie que cet élément est requis pour une recette finale, vous pouvez le vouloir en HQ mais vous pourriez ne pas le vouloir.",
       "Layout": "Vous pouvez entièrement modifier l'affichage, changer les panneaux et les données qu'ils contiennent en ouvrant l'éditeur d'affichage. Le bouton à gauche de celui-ci sert à changer rapidement entre les différents affichages.",
       "Permissions": "Vous pouvez éditer les permissions, ajouter d'autres utilisateurs, mettre votre liste en lecture seule, la partager à une CL, et plus encore, en ouvrant l'éditeur de permissions.",
-      "Fill_with_inventory": "Vous pouvez ajouter tout ce qui se trouve dans votre inventaire à cette liste.",
       "Pricing_mode_button": "Préparez et prévoyez facilement vos bénéfices pour cette liste en utilisant le calcul de bénéfices.",
       "More_actions_button": "Ce bouton ouvre un menu avec de nombreuses actions différentes pour la ligne courante. Vous pouvez convertir ces actions en boutons à l'aide de l'éditeur de mise en page.",
       "Alarm_button": "Cliquez ici pour créer une alarme pour cet objet, pour être alerté lorsqu'il apparaît."
@@ -2660,7 +2651,6 @@
       "Contact_info_placeholder": "Comment le client peut-il vous contacter pour parler de votre candidature si nécessaire? Discord, ingame, email, comme vous le souhaitez."
     },
     "NOTIFICATIONS": {
-      "Click_to_open": "Cliquez pour ouvrir la commission",
       "CONTRACT_ENDED_CONTRACTOR": {
         "Title": "Contrat de commission terminé",
         "Content": "Vous n'êtes plus le prestataire de la commission {{name}}"
@@ -2718,17 +2708,8 @@
     }
   },
   "MAPPY": {
-    "Total_entries": "Total des entrées",
     "Last_updated": "Dernière mise à jour",
-    "Last_bnpc_update": "Dernière position de monstre téléchargée",
-    "Last_node_update": "Dernière position de nœud téléchargée",
-    "Clear_map": "Effacer cette carte",
-    "Dashboard": "Tableau de bord Mappy",
-    "Open_details": "Ouvrir la page de détails",
-    "X_Missing_nodes": "{{amount}} nœud(s) manquant(s)",
-    "Missing_nodes": "Nœuds manquants",
-    "No_missing_nodes": "Aucun nœud manquant",
-    "Only_missing_nodes": "Afficher uniquement les cartes avec les nœuds manquants"
+    "Dashboard": "Tableau de bord Mappy"
   },
   "WORKSHOP_TREE": {
     "Title": "Arbre de recettes de l'atelier",
@@ -2795,13 +2776,10 @@
       "Discord_rank": "Rang spécial sur le serveur Discord, vous donnant accès au salon des contributeurs pour voir sur quoi nous travaillons (${{price}})",
       "Profile_badge": "Badge spécial sur votre profil Teamcraft (${{price}})",
       "Custom_theme": "Meilleure personnalisation du thème, avec une gestion des couleurs personnalisée (${{price}})",
-      "Pins_badge": "Obtenez un pins Teamcraft exclusif (${{price}}) (nécessite votre adresse sur Patreon)",
       "Loading_screen_message": "Ajoutez une nouvelle entrée dans le message de chargement \"Brought to you by ...\", avec votre nom, celui de votre CL, votre LS, peu importe ! (${{price}})"
-    },
-    "Select_retainer": "Choisissez l'un de vos servants"
+    }
   },
   "FREE_COMPANY_WORKSHOPS": {
-    "Import_using_pcap": "Importer en utilisant la capture de paquets",
     "Go_to_workshop": "Entrez dans votre atelier",
     "Go_to_workshop_description": "Si vous êtes déjà dedans, veuillez quitter l'atelier et y entrer à nouveau.",
     "Open_fc_window": "Ouvrez la fenêtre de détails de votre compagnie libre",
@@ -2927,8 +2905,6 @@
     "Cross_breeds": "Croisements"
   },
   "ALLAGAN_REPORTS": {
-    "Feature_banner_title": "Nouvelle fonctionnalité : Rapports Allagois",
-    "Feature_banner_description": "Vous avez trouvé un objet avec des informations manquantes ? Vous pouvez maintenant les renseigner dans les rapports allagois (Général > Rapports Allagois) afin qu'ils soient ajoutés dans la prochaine mise à jour !",
     "Title": "Rapports Allagois",
     "Reports": "Rapports",
     "Pending_changes": "Changements en attente",
@@ -2941,7 +2917,6 @@
     "Venture_placeholder": "Nom de la tâche",
     "Monster_placeholder": "Nom du monstre",
     "Voyage_placeholder": "Nom du voyage",
-    "Achievement_placeholder": "Nom du haut fait",
     "Quest_placeholder": "Nom de la quête",
     "Voyage_type": "Type de voyage",
     "Reported_by": "Signalé par",
@@ -2965,7 +2940,6 @@
     "Predator": "Prédateur",
     "Predator_explain": "Poissons à attraper avant d'avoir l'intuition du pêcheur ou le poisson pour la pêche à la lance",
     "Unknown_hookset": "Appât inconnu",
-    "Gig_head": "Taille",
     "No_predators": "Aucun prédateur",
     "Loading_gubal_analysis": "Chargement de l'analyse Gubal",
     "Gubal_analysis_suggestion": "Suggestion basée sur l'analyse des données",
@@ -2974,7 +2948,6 @@
     "Add_data_sources": "Ajouter/Modifier des sources de données pour cet objet",
     "Not_applied_yet": "Non appliqué",
     "Not_applied_yet_explain": "Cette source sera ajoutée à la liste et à la base de données lors de la prochaine mise à jour",
-    "Pending_changes_count": "{{amount}} modifications en attente à verifier",
     "Review_changes": "Vérifier les changements",
     "Imported_from_GT_data": "Importé depuis Garlandtools",
     "Status": "Statut",
@@ -3035,7 +3008,6 @@
       "FATE": "Aléa",
       "MOGSTATION": "Station Mog",
       "DEPRECATED": "Déprécié",
-      "ISLAND_ANIMAL": "Pâturage de la Félicité Insulaire",
       "QUEST": "Quête"
     },
     "STATUS": {
@@ -3050,10 +3022,6 @@
     "SUNSET": "Ensoleillé",
     "DAY": "Jour",
     "NIGHT": "Nuit"
-  },
-  "UPDATER": {
-    "New_update_available": "Une nouvelle mise à jour est disponible et a été téléchargée",
-    "Restart_to_install": "Voulez-vous redémarrer maintenant pour l'appliquer ?"
   },
   "NODE_TYPE": {
     "Mining": "Extraction de minerai",
@@ -3112,7 +3080,6 @@
     }
   },
   "ISLAND_SANCTUARY": {
-    "Animal_source": "Vous devez récolter cet objet auprès de l'un des animaux suivants dans le pâturage de votre Félicité Insulaire",
     "Island_level": "Rang de Félicité",
     "Landmarks": "Édifices",
     "Workshop_rank": "Rang de Fabrique",
@@ -3133,14 +3100,8 @@
       "Demand_shift": "Évolution",
       "Predicted_popularity": "Popularité escomptée",
       "Edit_mode": "Mode édition",
-      "Best_items_to_craft": "Meilleurs objets à fabriquer",
-      "Total_value": "Valeur totale",
-      "Run_optimizer": "Trouver la meilleure planification pour le reste de la semaine",
-      "No_schedule_found": "Aucun planning trouvé",
-      "No_schedule_found_explain": "Assurez-vous que la réinitialisation est dans plus de 4 heures",
       "Possible_peak_days": "Possibles pics",
       "Peak_days_explain": "Les jours les plus probables où cet objet augmente en valeur. Gras = importante valeur.",
-      "Items_to_prepare": "Meilleurs objets à préparer pour demain",
       "Rest": "Cycle de repos",
       "Unknown_day_planning": "Disponible le {{day}}",
       "Set_rest_day": "Définir comme deuxième cycle de repos",
@@ -3151,8 +3112,6 @@
       "Exclude_crop_materials": "Exclure les matériaux d'agriculture",
       "Display_item_metadata": "Afficher la catégorie et le temps de fabrication des objets dans la planification",
       "Groove_tooltip": "Enthousiasme à la fin de la journée",
-      "Crafting_time": "Temps de fabrication",
-      "Categories": "Catégories",
       "No_planning": "Aucun planning disponible",
       "No_planning_explain": " Teamcraft n'est pas en mesure de calculer un planning parce qu'il y a trop peu de recettes disponibles, essayez de modifier le niveau de l'île ou de décocher certaines exclusions de matériaux.",
       "Next_week_prep": "Matériaux que vous devriez préparer pour la semaine prochaine",
@@ -3211,8 +3170,6 @@
     "Copy_move_macro": "Copier la macro de déplacement du train",
     "Slap": "Ignore : {{target}}",
     "Fish_before": "Déclencheurs d'Intuition requis : {{target}}",
-    "Current_position_macro": "/shout Train de pêche en cours pour {{itemName}} à {{mapName}} : {{coords}}. Appât préféré : {{bait}}, collecte minimale : {{minGathering}}.",
-    "Next_position_macro": "/shout Choo Choo ! Le train de pêche se dirige vers {{mapName}} : {{coords}} afin de pêcher {{itemName}}. Appât préféré : {{bait}}, collecte minimale : {{minGathering}}.",
     "Board_train": "Embarquer",
     "Leave_train": "Quitter ce train",
     "Stats": "Statistiques",
@@ -3234,7 +3191,6 @@
     "Train_conductor": "Conducteur du train : {{name}}",
     "No_conductor": "Aucun conducteur",
     "Rename_train": "Renommer ce train",
-    "No_slap": "Aucun poisson à ignorer",
     "Select_slap": "Sélectionner un poisson à ignorer",
     "Visiblity_explain": "Les trains publics sont visibles dans la page Trains de pêche",
     "Moving_notification_title": "Le train se déplace au point suivant",
@@ -3267,7 +3223,6 @@
   "TITLE": {
     "Search": "Rechercher",
     "Lists": "Listes",
-    "Crafting_Simulator": "Simulateur de crafts",
     "Crafting_Rotation": "Rotations de craft",
     "Gearsets": "Tenues",
     "Crafting_Replays": "Enregistrements d'artisanat",

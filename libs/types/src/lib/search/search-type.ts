@@ -7,7 +7,6 @@ export enum SearchType {
   NPC = 'NPC',
   LEVE = 'Leve',
   MONSTER = 'Monster',
-  // LORE = 'Lore',
   FATE = 'Fate',
   MAP = 'Map',
   ACTION = 'Action',
